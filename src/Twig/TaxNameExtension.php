@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada\Twig;
+namespace InoceanTaxProviderCA\Twig;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
-use InoceanSalesTaxesCanada\Service\TaxConfigService;
+use InoceanTaxProviderCA\Service\TaxConfigService;
 
 class TaxNameExtension extends AbstractExtension
 {

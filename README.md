@@ -1,4 +1,4 @@
-# Canada Tax Provider for Shopware 6.6 / 6.7
+# Inocean Tax Provider (CA) for Shopware 6.6 / 6.7
 
 A comprehensive tax calculation and compliance plugin designed specifically for Canadian merchants using Shopware e-commerce platform.
 
@@ -65,9 +65,18 @@ border, add a Shopware tax rule so non-Canadian addresses are taxed at 0%.
    "(CA) HST", "(CA) GST only", "(CA) TAX-FREE" — to your products and shipping
    methods (see *Configuration*)
 
+### Existing installations
+
+Shopware identifies this plugin as `InoceanTaxProviderCA` after the rename.
+Before switching an existing installation, migrate its plugin registration,
+the `InoceanSalesTaxesCanada.config.*` settings (including sales-channel
+overrides), and the stored tax provider identifier to the new plugin name and
+namespace. Preserve the existing tax provider and rule IDs. Test the migration
+in staging before deploying the renamed plugin.
+
 ## ⚙️ Configuration
 
-1. Navigate to **Settings > Extensions > Canada Tax Provider for Shopware**
+1. Navigate to **Settings > Extensions > Inocean Tax Provider (CA)**
 2. Rates are pre-filled with the current statutory values. Adjust them if a
    rate changes; each sales channel can override them independently.
 3. **Federal GST** (basic settings) is the rate charged on "(CA) GST only"
@@ -122,7 +131,7 @@ border, add a Shopware tax rule so non-Canadian addresses are taxed at 0%.
 - **Response Time**: 24-72 hours for Canadian merchants
 
 ### Tax Compliance Notice
-⚠️ **Important**: While this plugin assists with Canada Tax Provider for Shopware, merchants remain solely responsible for ensuring their tax calculations comply with all applicable Canadian federal and provincial tax laws. Consult with qualified tax professionals for complex scenarios.
+⚠️ **Important**: While this plugin helps calculate Canadian sales taxes, merchants remain solely responsible for ensuring their tax calculations comply with all applicable Canadian federal and provincial tax laws. Consult with qualified tax professionals for complex scenarios.
 
 ## 🔄 Changelog
 
@@ -160,5 +169,5 @@ requests are best submitted through the support channels above.
 
 **Made with ❤️ for Canadian e-commerce merchants**
 
-*For questions about this plugin or Canada Tax Provider for Shopware, please contact our support team.*
+*For questions about Inocean Tax Provider (CA), please contact our support team.*
 

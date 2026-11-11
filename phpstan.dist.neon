@@ -8,4 +8,4 @@ parameters:
         - src
     excludePaths:
         - src/Resources
-    tmpDir: ../../../var/cache/phpstan/InoceanSalesTaxesCanada
+    tmpDir: ../../../var/cache/phpstan/InoceanTaxProviderCA

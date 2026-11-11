@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-use InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax\CanadaTaxProvider;
-use InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax\PromotionTaxApportioner;
-use InoceanSalesTaxesCanada\Service\TaxConfigService;
-use InoceanSalesTaxesCanada\Twig\TaxNameExtension;
+use InoceanTaxProviderCA\Core\Checkout\Cart\Tax\CanadaTaxProvider;
+use InoceanTaxProviderCA\Core\Checkout\Cart\Tax\PromotionTaxApportioner;
+use InoceanTaxProviderCA\Service\TaxConfigService;
+use InoceanTaxProviderCA\Twig\TaxNameExtension;
 use Shopware\Core\System\SystemConfig\SystemConfigService;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 

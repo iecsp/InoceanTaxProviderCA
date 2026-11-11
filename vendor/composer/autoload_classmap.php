@@ -7,13 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'InoceanSalesTaxesCanada\\Config\\CanadianProvince' => $baseDir . '/src/Config/CanadianProvince.php',
-    'InoceanSalesTaxesCanada\\Config\\Constants' => $baseDir . '/src/Config/Constants.php',
-    'InoceanSalesTaxesCanada\\Config\\TaxType' => $baseDir . '/src/Config/TaxType.php',
-    'InoceanSalesTaxesCanada\\Core\\Checkout\\Cart\\Tax\\CanadaTaxProvider' => $baseDir . '/src/Core/Checkout/Cart/Tax/CanadaTaxProvider.php',
-    'InoceanSalesTaxesCanada\\Core\\Checkout\\Cart\\Tax\\Struct\\CanadaCalculatedTaxCollection' => $baseDir . '/src/Core/Checkout/Cart/Tax/Struct/CanadaCalculatedTaxCollection.php',
-    'InoceanSalesTaxesCanada\\InoceanSalesTaxesCanada' => $baseDir . '/src/InoceanSalesTaxesCanada.php',
-    'InoceanSalesTaxesCanada\\Migration\\Migration1780778469NullCanadaTaxProviderAvailabilityRule' => $baseDir . '/src/Migration/Migration1780778469NullCanadaTaxProviderAvailabilityRule.php',
-    'InoceanSalesTaxesCanada\\Service\\TaxConfigService' => $baseDir . '/src/Service/TaxConfigService.php',
-    'InoceanSalesTaxesCanada\\Twig\\TaxNameExtension' => $baseDir . '/src/Twig/TaxNameExtension.php',
+    'InoceanTaxProviderCA\\Config\\CanadianProvince' => $baseDir . '/src/Config/CanadianProvince.php',
+    'InoceanTaxProviderCA\\Config\\Constants' => $baseDir . '/src/Config/Constants.php',
+    'InoceanTaxProviderCA\\Config\\TaxType' => $baseDir . '/src/Config/TaxType.php',
+    'InoceanTaxProviderCA\\Core\\Checkout\\Cart\\Tax\\CanadaTaxProvider' => $baseDir . '/src/Core/Checkout/Cart/Tax/CanadaTaxProvider.php',
+    'InoceanTaxProviderCA\\Core\\Checkout\\Cart\\Tax\\Struct\\CanadaCalculatedTaxCollection' => $baseDir . '/src/Core/Checkout/Cart/Tax/Struct/CanadaCalculatedTaxCollection.php',
+    'InoceanTaxProviderCA\\InoceanTaxProviderCA' => $baseDir . '/src/InoceanTaxProviderCA.php',
+    'InoceanTaxProviderCA\\Migration\\Migration1780778469NullCanadaTaxProviderAvailabilityRule' => $baseDir . '/src/Migration/Migration1780778469NullCanadaTaxProviderAvailabilityRule.php',
+    'InoceanTaxProviderCA\\Service\\TaxConfigService' => $baseDir . '/src/Service/TaxConfigService.php',
+    'InoceanTaxProviderCA\\Twig\\TaxNameExtension' => $baseDir . '/src/Twig/TaxNameExtension.php',
 );

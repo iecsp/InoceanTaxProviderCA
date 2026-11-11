@@ -1,11 +1,11 @@
 {
   "main.js": {
-    "file": "assets/inocean-sales-taxes-canada-wlC1AWhk.js",
-    "name": "inocean-sales-taxes-canada",
+    "file": "assets/inocean-tax-provider-ca-wlC1AWhk.js",
+    "name": "inocean-tax-provider-ca",
     "src": "main.js",
     "isEntry": true,
     "css": [
-      "assets/inocean-sales-taxes-canada-CvlTUI7k.css"
+      "assets/inocean-tax-provider-ca-CvlTUI7k.css"
     ]
   }
 }

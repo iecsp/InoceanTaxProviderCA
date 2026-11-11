@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada;
+namespace InoceanTaxProviderCA;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -15,10 +15,10 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsAnyFilter;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
 use Shopware\Core\Framework\Context;
-use InoceanSalesTaxesCanada\Config\Constants;
-use InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax\CanadaTaxProvider;
+use InoceanTaxProviderCA\Config\Constants;
+use InoceanTaxProviderCA\Core\Checkout\Cart\Tax\CanadaTaxProvider;
 
-class InoceanSalesTaxesCanada extends Plugin
+class InoceanTaxProviderCA extends Plugin
 {
 
 	public function install(InstallContext $installContext): void

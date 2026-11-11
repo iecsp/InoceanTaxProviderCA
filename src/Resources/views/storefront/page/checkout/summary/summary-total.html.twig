@@ -13,7 +13,7 @@
             <dt class="col-12 inocean-checkout-summary-shipping-details">
                 <h5>{{ 'salseTaxCanada.checkout.summary.shippingMethod'|trans }} {{ delivery.shippingMethod.name }}</h5>
                 <div>{{ 'salseTaxCanada.checkout.summary.shippingTotalPrice'|trans }} {{ delivery.shippingCosts.totalPrice|currency }}</div>
-                {% if config('InoceanSalesTaxesCanada.config.FreightTaxable') %}
+                {% if config('InoceanTaxProviderCA.config.FreightTaxable') %}
                     {% if app.request.attributes.get('_route') === 'frontend.checkout.finish.page' %}
                         {% for taxItem in page.order.lineItems %}
                             {% if taxItem.payload.inoceanShippingTaxInfo is defined and taxItem.payload.inoceanShippingTaxInfo is not empty %}

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax\Struct;
+namespace InoceanTaxProviderCA\Core\Checkout\Cart\Tax\Struct;
 
 use Shopware\Core\Checkout\Cart\Tax\Struct\CalculatedTax;
 use Shopware\Core\Checkout\Cart\Tax\Struct\CalculatedTaxCollection;

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax;
+namespace InoceanTaxProviderCA\Core\Checkout\Cart\Tax;
 
 /**
  * Works out which tax rates a promotion (discount) line should carry.

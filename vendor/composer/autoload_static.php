@@ -9,12 +9,12 @@ class ComposerStaticInita4c1bd7f3de5da732420f722a2f4994d
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'InoceanSalesTaxesCanada\\' => 24,
+            'InoceanTaxProviderCA\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'InoceanSalesTaxesCanada\\' => 
+        'InoceanTaxProviderCA\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,15 +22,15 @@ class ComposerStaticInita4c1bd7f3de5da732420f722a2f4994d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'InoceanSalesTaxesCanada\\Config\\CanadianProvince' => __DIR__ . '/../..' . '/src/Config/CanadianProvince.php',
-        'InoceanSalesTaxesCanada\\Config\\Constants' => __DIR__ . '/../..' . '/src/Config/Constants.php',
-        'InoceanSalesTaxesCanada\\Config\\TaxType' => __DIR__ . '/../..' . '/src/Config/TaxType.php',
-        'InoceanSalesTaxesCanada\\Core\\Checkout\\Cart\\Tax\\CanadaTaxProvider' => __DIR__ . '/../..' . '/src/Core/Checkout/Cart/Tax/CanadaTaxProvider.php',
-        'InoceanSalesTaxesCanada\\Core\\Checkout\\Cart\\Tax\\Struct\\CanadaCalculatedTaxCollection' => __DIR__ . '/../..' . '/src/Core/Checkout/Cart/Tax/Struct/CanadaCalculatedTaxCollection.php',
-        'InoceanSalesTaxesCanada\\InoceanSalesTaxesCanada' => __DIR__ . '/../..' . '/src/InoceanSalesTaxesCanada.php',
-        'InoceanSalesTaxesCanada\\Migration\\Migration1780778469NullCanadaTaxProviderAvailabilityRule' => __DIR__ . '/../..' . '/src/Migration/Migration1780778469NullCanadaTaxProviderAvailabilityRule.php',
-        'InoceanSalesTaxesCanada\\Service\\TaxConfigService' => __DIR__ . '/../..' . '/src/Service/TaxConfigService.php',
-        'InoceanSalesTaxesCanada\\Twig\\TaxNameExtension' => __DIR__ . '/../..' . '/src/Twig/TaxNameExtension.php',
+        'InoceanTaxProviderCA\\Config\\CanadianProvince' => __DIR__ . '/../..' . '/src/Config/CanadianProvince.php',
+        'InoceanTaxProviderCA\\Config\\Constants' => __DIR__ . '/../..' . '/src/Config/Constants.php',
+        'InoceanTaxProviderCA\\Config\\TaxType' => __DIR__ . '/../..' . '/src/Config/TaxType.php',
+        'InoceanTaxProviderCA\\Core\\Checkout\\Cart\\Tax\\CanadaTaxProvider' => __DIR__ . '/../..' . '/src/Core/Checkout/Cart/Tax/CanadaTaxProvider.php',
+        'InoceanTaxProviderCA\\Core\\Checkout\\Cart\\Tax\\Struct\\CanadaCalculatedTaxCollection' => __DIR__ . '/../..' . '/src/Core/Checkout/Cart/Tax/Struct/CanadaCalculatedTaxCollection.php',
+        'InoceanTaxProviderCA\\InoceanTaxProviderCA' => __DIR__ . '/../..' . '/src/InoceanTaxProviderCA.php',
+        'InoceanTaxProviderCA\\Migration\\Migration1780778469NullCanadaTaxProviderAvailabilityRule' => __DIR__ . '/../..' . '/src/Migration/Migration1780778469NullCanadaTaxProviderAvailabilityRule.php',
+        'InoceanTaxProviderCA\\Service\\TaxConfigService' => __DIR__ . '/../..' . '/src/Service/TaxConfigService.php',
+        'InoceanTaxProviderCA\\Twig\\TaxNameExtension' => __DIR__ . '/../..' . '/src/Twig/TaxNameExtension.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

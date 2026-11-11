@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax;
+namespace InoceanTaxProviderCA\Core\Checkout\Cart\Tax;
 
-use InoceanSalesTaxesCanada\Config\CanadianProvince;
-use InoceanSalesTaxesCanada\Config\Constants;
-use InoceanSalesTaxesCanada\Config\TaxType;
-use InoceanSalesTaxesCanada\Core\Checkout\Cart\Tax\Struct\CanadaCalculatedTaxCollection;
-use InoceanSalesTaxesCanada\Service\TaxConfigService;
+use InoceanTaxProviderCA\Config\CanadianProvince;
+use InoceanTaxProviderCA\Config\Constants;
+use InoceanTaxProviderCA\Config\TaxType;
+use InoceanTaxProviderCA\Core\Checkout\Cart\Tax\Struct\CanadaCalculatedTaxCollection;
+use InoceanTaxProviderCA\Service\TaxConfigService;
 use Psr\Log\LoggerInterface;
 use Shopware\Core\Checkout\Cart\Cart;
 use Shopware\Core\Checkout\Cart\Delivery\Struct\Delivery;

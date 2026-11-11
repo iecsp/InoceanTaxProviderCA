@@ -1,13 +1,13 @@
 {
-  "base": "/bundles/inoceansalestaxescanada/administration/",
+  "base": "/bundles/inoceantaxproviderca/administration/",
   "entryPoints": {
-    "inocean-sales-taxes-canada": {
+    "inocean-tax-provider-ca": {
       "css": [
-        "/bundles/inoceansalestaxescanada/administration/assets/inocean-sales-taxes-canada-CvlTUI7k.css"
+        "/bundles/inoceantaxproviderca/administration/assets/inocean-tax-provider-ca-CvlTUI7k.css"
       ],
       "dynamic": [],
       "js": [
-        "/bundles/inoceansalestaxescanada/administration/assets/inocean-sales-taxes-canada-wlC1AWhk.js"
+        "/bundles/inoceantaxproviderca/administration/assets/inocean-tax-provider-ca-wlC1AWhk.js"
       ],
       "legacy": false,
       "preload": []

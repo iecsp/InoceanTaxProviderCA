@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace InoceanSalesTaxesCanada\Service;
+namespace InoceanTaxProviderCA\Service;
 
-use InoceanSalesTaxesCanada\Config\CanadianProvince;
-use InoceanSalesTaxesCanada\Config\Constants;
-use InoceanSalesTaxesCanada\Config\TaxType;
+use InoceanTaxProviderCA\Config\CanadianProvince;
+use InoceanTaxProviderCA\Config\Constants;
+use InoceanTaxProviderCA\Config\TaxType;
 use Psr\Log\LoggerInterface;
 use Shopware\Core\System\SystemConfig\SystemConfigService;
 
 class TaxConfigService
 {
-    private const CONFIG_PREFIX = 'InoceanSalesTaxesCanada.config.';
+    private const CONFIG_PREFIX = 'InoceanTaxProviderCA.config.';
 
     /**
      * Currency has two decimals, so rounding tax to fewer than two is never

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'InoceanSalesTaxesCanada\\' => array($baseDir . '/src'),
+    'InoceanTaxProviderCA\\' => array($baseDir . '/src'),
 );
